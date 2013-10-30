@@ -1,23 +1,11 @@
-ompiled Source #
-###################
-.sass-cache
-stylesheets
-*-sprite-*.png
-
-# OS generated files #
-######################
+# Folder view configuration files
 .DS_Store
-.DS_Store?
+Desktop.ini
+
+# Thumbnail cache files
 ._*
+Thumbs.db
+
+# Files that might appear on external disks
 .Spotlight-V100
 .Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-nbproject
-*.local.*
-*.orig
-.idea
-.buildpath
-.project
-.settings/
