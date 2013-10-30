@@ -36,6 +36,10 @@ function parse_git_uncommited_changes
     git status ^/dev/null | grep 'Changes' | sed -e 's/# Changes\(.*\)/\1/g'
 end
 
+function parse_git_untracked_files
+    git status ^/dev/null | grep 'Untracked' | sed -e 's/# Untracked\(.*\)/\1/g'
+end
+
 function is_git
 	git status >/dev/null ^&1
 	return $status
@@ -63,7 +67,12 @@ function fish_prompt -d "Write out the prompt"
 
         set git_uncommited_changes (parse_git_uncommited_changes)
         if [ -n "$git_uncommited_changes" -a "$git_uncommited_changes" != "0" ]
-            printf '%s*' (set_color red)
+            printf '%s*' (set_color purple)
+        end
+
+        set git_untracked_files (parse_git_untracked_files)
+        if [ -n "$git_untracked_files" -a "$git_untracked_files" != "0" ]
+            printf '%s+' (set_color red)
         end
 	end
 	printf '%s$ ' (set_color normal)
