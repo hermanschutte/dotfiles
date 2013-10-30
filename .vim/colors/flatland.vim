@@ -8,14 +8,14 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "PlasticCodeWrap"
+let g:colors_name = "Flatland"
 
-hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
-hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3c3f42 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
-hi LineNr ctermfg=102 ctermbg=59 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
+hi Cursor ctermfg=16 ctermbg=8 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
+hi Visual ctermfg=NONE ctermbg=8 cterm=NONE guifg=NONE guibg=#3c3f42 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=8 cterm=NONE guifg=NONE guibg=#26292c gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=8 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=8 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
+hi LineNr ctermfg=102 ctermbg=8 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
 hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#636567 guibg=#636567 gui=NONE
 hi MatchParen ctermfg=209 ctermbg=NONE cterm=underline guifg=#fa9a4b guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f8 guibg=#636567 gui=bold
@@ -27,7 +27,7 @@ hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=un
 hi Directory ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b8d977 guibg=NONE gui=NONE
 hi Folded ctermfg=102 ctermbg=16 cterm=NONE guifg=#798188 guibg=#26292c gui=NONE
 
-hi Normal ctermfg=231 ctermbg=16 cterm=NONE guifg=#f8f8f8 guibg=#26292c gui=NONE
+hi Normal ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f8 guibg=#26292c gui=NONE
 hi Boolean ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b8d977 guibg=NONE gui=NONE
 hi Character ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b8d977 guibg=NONE gui=NONE
 hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#798188 guibg=NONE gui=NONE
